@@ -41,3 +41,18 @@
 .radius-25 {
   border-radius: 25px;
 }
+
+
+/**desdeaqui**/
+
+.m-b-50 {
+  margin-bottom: 50px;
+}
+
+.circle-work {
+  width: 225px;
+  height: 225px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
