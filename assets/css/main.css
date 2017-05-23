@@ -55,6 +55,10 @@ h4 {
 
 /**desdeaqui**/
 
+.color-inherit {
+  color: inherit;
+}
+
 .m-b-50 {
   margin-bottom: 50px;
 }
@@ -73,7 +77,7 @@ h4 {
 }
 
 .size-title {
-  font-size: 3.5em;
+  font-size: 3.1em;
 }
 
 .border-top-gray {
@@ -116,7 +120,7 @@ h4 {
 }
 
 .bg-turq {
-  background-color: #5ba2dc;
+  background-color: #3498db;
   color: #fff;
 }
 
@@ -153,6 +157,27 @@ h4 {
 
 .star-community{
   width: 120px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+pre label {
+  border-left: 1px #000 solid;
+}
+
+.checkbox label {
+  margin-left: 10px;
+}
+
+#get-your-quote {
+  background-color: #eeeeee;
+}
+
+
+.icon-social {
+  width: 50px;
   height: 50px;
   display: flex;
   align-items: center;
