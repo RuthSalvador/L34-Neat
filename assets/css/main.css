@@ -18,42 +18,40 @@ h4 {
   line-height: 1.5;
 }
 
-.prueba {
-  background-color: rgb(97, 157, 73)
-}
-
-.contenedor {
-  width: 100%;
-  height: 553px;
-}
-
-#principal {
+#home {
   width: 100%;
   height: 483px;
 }
-/*[class^="icon-"], [class*=" icon-"] {*/
 
-.icon {
-  display: inline-block;
-
+#principal {
+  width: 100;
+  height: 427px;
 }
 
-/*@media (min-width: 768px) {
-  .icon {
-    display: block;
-    width: 70%;
-    height: 70%;
-    background-size: 100% 100%;
+#neat-hd {
+  padding-top: 84px;
+  max-width: 100%;
+  height: 483px;
+}
 
-  }
-}*/
+#hero {
+  width: 100%;
+  height: 483px;
+}
+
+.title-big {
+  display: none;
+}
+
+.boton-home {
+  width: 231px;
+  margin: auto;
+  padding-top: 21px;
+}
 
 .radius-25 {
   border-radius: 25px;
 }
-
-
-/**desdeaqui**/
 
 .color-inherit {
   color: inherit;
@@ -184,11 +182,29 @@ pre label {
   justify-content: center;
 }
 
+.nav-none {
+  display: none;
+}
+
+.alert-none {
+  display: none;
+}
+
 @media (min-width: 768px) {
 
   body {
     font-size: 19px;
     line-height: 2em;
+  }
+
+  .icon--hero-bench {
+    left: 880px;
+  }
+
+  .icon--hero-park {
+    width: 260px;
+  	height: 310px;
+  	right: 300px;
   }
 
   h1 {
@@ -197,6 +213,10 @@ pre label {
 
   h4 {
     font-size: 1.3em;
+  }
+
+  .color-white {
+    color: #fff;
   }
 
   .circle-work {
@@ -258,4 +278,53 @@ pre label {
     display: block;
   }
 
+  .title-big {
+    display: block;
+    font-size: 3.5em;
+    font-weight: bold;
+  }
+
+  .logo-none {
+    display: none;
+  }
+
+  .nav-none {
+    display: block;
+    padding: 30px 100px;
+    position: relative;
+  }
+
+  .nav-none li {
+    padding: 0 15px;
+  }
+
+  .nav-right {
+  position: absolute;
+  right: 100px;
+  top: 30px
+  }
+
+  #home {
+    width: 100%;
+    height: 650px;
+  }
+
+  #principal {
+    width: 100%;
+    height: 550px;
+    padding-top: 20px;
+  }
+
+  .alert-none {
+    display: block;
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
+  }
+
+  #close{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+  }
 }
