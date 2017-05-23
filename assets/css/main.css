@@ -131,12 +131,47 @@ h4 {
     width: 300px;
     height: 300px;
   }
+  
   .text-work {
     text-align: left;
   }
 
   .line-break {
-    display: inline;
+    display: block;
   }
+
+  .text-arrow {
+    font-size: 0.8em;
+    text-align: center;
+    line-height: 1.8em;
+    margin: 0;
+
+  }
+
+  .icon-promise {
+    width: 91px;
+    height: 91px;
+  }
+
+  .icon-arrow-promise {
+    display: none;
+  }
+
+  .border-top-gray {
+    border: none;
+  }
+
+  .cont-promise {
+    width: 100%;
+    height: 126px;
+    display: flex;
+  }
+
+  .align-promise-sm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
 
 }
