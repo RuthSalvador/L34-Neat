@@ -14,7 +14,7 @@ body {
 }
 
 h4 {
-  font-size: 1.2em;
+  font-size: 1.1em;
   line-height: 1.5;
 }
 
@@ -115,10 +115,48 @@ h4 {
   padding-top: 56px;
 }
 
+.bg-turq {
+  background-color: #5ba2dc;
+  color: #fff;
+}
+
+.line-small{
+  line-height: 0.5;
+}
+
+.pad-comm {
+  padding: 15px 0;
+}
+
+.sprite {
+  background-image: url(../img/testimonials.jpg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 0;
+  width: 100px;
+  height: 100px;
+}
+
+.nic {
+ background-position: 0 -205px;
+}
+
+.renee {
+ background-position: 0;
+}
+
+.star-community{
+  width: 120px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (min-width: 768px) {
 
   body {
-    font-size: 20px;
+    font-size: 19px;
     line-height: 2em;
   }
 
